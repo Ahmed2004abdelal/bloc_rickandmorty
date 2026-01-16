@@ -1,16 +1,63 @@
-# bloc_breaking
+# 🧪 Rick and Morty App
 
-A new Flutter project.
+A Flutter application that displays all Rick and Morty characters with the ability to search and view detailed information about each character.  
+This project was built to practice **Bloc/Cubit state management**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 🏠 Home page displaying all Rick and Morty characters
+- 🔍 Search for any character by name
+- 📄 View detailed information for each character
+- ⚡ Fast and responsive UI
+- 🧠 State management using **Bloc / Cubit**
+- 🌐 API integration
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Screens
+- Characters List Screen
+- Character Details Screen
+- Search Screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+- **Flutter**
+- **Dart**
+- **Bloc / Cubit**
+- **REST API** (Rick and Morty API)
+- **HTTP**
+
+---
+
+## 🧠 State Management
+This project uses **Bloc/Cubit** to:
+- Handle API requests
+- Manage loading, success, and error states
+- Separate business logic from UI
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK
+- Android Studio or VS Code
+- Emulator or real device
+
+### Installation
+```bash
+git clone https://github.com/Ahmed2004abdelal/RickAndMortyApp.git
+cd RickAndMortyApp
+flutter pub get
+flutter run
+lib/
+ ├── core/
+ ├── features/
+ │    ├── characters/
+ │    │     ├── data/
+ │    │     ├── logic/
+ │    │     └── ui/
+ ├── models/
+ └── main.dart
